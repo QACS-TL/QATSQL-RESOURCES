@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="QASQLADMIN">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):MFLAPTOP\markf">
+          <Created>2022-01-25T12:53:09.1662434+00:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="mflaptop\inst2:MFLAPTOP\markf">
+          <Created>2021-12-17T14:18:51.4960523+00:00</Created>
+          <Type>SQL</Type>
+          <Server>mflaptop\inst2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sqladmin1:BBenson">
+          <Created>2021-12-16T14:44:08.6036625+00:00</Created>
+          <Type>SQL</Type>
+          <Server>sqladmin1</Server>
+          <UserName>BBenson</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sqladmin1:GGalway">
+          <Created>2021-12-16T14:49:41.861516+00:00</Created>
+          <Type>SQL</Type>
+          <Server>sqladmin1</Server>
+          <UserName>GGalway</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="sqladmin1:MFLAPTOP\markf">
+          <Created>2021-12-14T09:15:05.8878456+00:00</Created>
+          <Type>SQL</Type>
+          <Server>sqladmin1</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sqladmin1:StandardUser">
+          <Created>2021-12-16T15:14:02.737997+00:00</Created>
+          <Type>SQL</Type>
+          <Server>sqladmin1</Server>
+          <UserName>StandardUser</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Mod 01 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 01 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 01 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 01 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 03 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 03 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 03 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 03 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 03 Lab C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 03 Lab C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 03 Lab D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 03 Lab D.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 04 Demo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 04 Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 04 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 04 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 04 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 04 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 04 Lab C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 04 Lab C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 04 Xtra - Finding content of log backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 04 Xtra - Finding content of log backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 04 Xtra - Lab C using fn_dblog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 04 Xtra - Lab C using fn_dblog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 05 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 05 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 05 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 05 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 05 Lab C - sqladmin1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 05 Lab C - sqladmin1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 05 Lab C - sqladmin1-inst2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mflaptop\inst2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mflaptop\inst2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 05 Lab C - sqladmin1-inst2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 05 Lab D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 05 Lab D.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 06 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 06 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 06 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 06 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 06 Lab C - Admin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 06 Lab C - Admin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 06 Lab C - StandardUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:False:StandardUser</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName>StandardUser</AssociatedConnUserName>
+          <FullPath>Mod 06 Lab C - StandardUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 07 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 07 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 07 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 07 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Always Encrypted.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Always Encrypted.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Demo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Lab B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Lab B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Lab C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Lab C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Lab D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Lab D.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 08 Lab E.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 08 Lab E.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 09 Lab A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 09 Lab A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 09 Lab C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 09 Lab C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mod 09 Lab D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqladmin1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqladmin1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mod 09 Lab D.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

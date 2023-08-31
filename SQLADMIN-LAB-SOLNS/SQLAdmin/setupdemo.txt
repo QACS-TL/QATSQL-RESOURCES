@@ -1,0 +1,39 @@
+https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15
+
+
+setup.exe 
+/Q 
+/IACCEPTSQLSERVERLICENSETERMS 
+/ACTION="install" 
+/PID="AAAAA-BBBBB-CCCCC-DDDDD-EEEEE" 
+/FEATURES=SQL,AS,IS,Tools 
+/INSTANCENAME=MSSQLSERVER 
+/SQLSVCACCOUNT="MyDomain\MyAccount" 
+/SQLSVCPASSWORD="************" 
+/SQLSYSADMINACCOUNTS="MyDomain\MyAccount " 
+/AGTSVCACCOUNT="MyDomain\MyAccount" 
+/AGTSVCPASSWORD="************" 
+/ASSVCACCOUNT="MyDomain\MyAccount" 
+/ASSVCPASSWORD="************" 
+/ISSVCAccount="MyDomain\MyAccount" 
+/ISSVCPASSWORD="************" 
+/ASSYSADMINACCOUNTS="MyDomain\MyAccount" 
+
+---------------------------- Aimed
+setup.exe 
+/Q
+/IACCEPTSQLSERVERLICENSETERMS 
+/ACTION="install"  
+/FEATURES=SQL 
+/INSTANCENAME=<<instance name>>
+/SECURITYMODE=SQL
+/SAPWD="<<sa password>>"
+/SQLUSERDBDIR="<<dbfolder>>"
+/SQLUSERDBLOGDIR="<<logfolder>>"
+/SQLSVCACCOUNT="<<serviceaccountname>>" 
+/SQLSVCPASSWORD="<<serviceaccountpassword>>" 
+/SQLSYSADMINACCOUNTS="<<sysadmin_accounts>>" 
+/AGTSVCACCOUNT="<<serviceaccountname>>" 
+/AGTSVCPASSWORD="<<serviceaccountpassword>>" 
+
+
