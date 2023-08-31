@@ -1,0 +1,14 @@
+Changed database context to 'Mod06LabC'.
+
+(1 rows affected)
+ItemID      ItemDTAdded             ReceiptID   ProductID   Quantity   
+----------- ----------------------- ----------- ----------- -----------
+          1 2022-02-21 11:41:09.487           1        1000           5
+          3 2022-02-21 11:53:37.050           2        1001          10
+          4 2022-02-21 12:00:32.527           2        1001          10
+
+(3 rows affected)
+Msg 229, Level 14, State 5, Server SERVER2019, Line 7
+The DELETE permission was denied on the object 'TillRoll', database 'Mod06LabC', schema 'dbo'.
+Msg 229, Level 14, State 5, Server SERVER2019, Line 9
+The UPDATE permission was denied on the object 'TillRoll', database 'Mod06LabC', schema 'dbo'.
